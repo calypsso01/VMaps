@@ -1,0 +1,8 @@
+Model Information:
+* title:	Dragonballs
+* source:	https://sketchfab.com/3d-models/dragonballs-356251be7eee4a4bbb9f6ecb225ff282
+* author:	LucasPresoto (https://sketchfab.com/LucasPresoto)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

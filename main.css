@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+#map {
+    height: 75vh;
+}
+
+#navigate-button {
+    border: none;
+    width: 60%;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+}
+
+.container {
+    margin-top: 1em;
+    border: 3px solid rgb(73, 88, 221);
+}

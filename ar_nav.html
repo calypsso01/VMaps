@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <title>Navegación</title>
+
+    <!-- AFrame -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <!-- CSS y JS -->
+    <link rel="stylesheet" href="./ar_nav.css" />
+    <script src="./ar_nav.js" type="text/javascript"></script>
+
+    <!--INICIA ESCENA-->
+    <a-scene id="scene_container" vr-mode-ui="enabled: false" embedded arjs="sourceType: webcam; debugUIEnabled: false;">
+        <!--a-asset>
+            <a-asset-item id="pelota" src="./christmas_tree_ball/scene.gltf"></a-asset-item>
+        </a-asset>
+        <a-entity gltf-model="#pelota" look-at="[gps-camera]" scale="0.5 0.5 0.5" position="0 0 0" rotation="0 0 -10"
+        gps-entity-place="latitude: 19.622530082930474 ; longitude: -99.23789177251778"></a-entity-->
+
+        <a-camera gps-camera rotation-reader minDistance="1" positionMinAccuracy="0"></a-camera>
+
+    </a-scene>
+
+</body>
+
+</html>
