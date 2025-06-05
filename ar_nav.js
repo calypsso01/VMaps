@@ -60,7 +60,7 @@ function render_arrows(){
                         `<a-entity gps-entity-place="latitude: ${steps[i].maneuver.location[1]}; longitude: ${steps[i].maneuver.location[0]};">
                             <a-image name="${instruction}" src="./assets/${images[image]}" 
                                 look-at="#step_${i - 1}"
-                                scale="5 5 5"
+                                scale="8 8 8"
                                 id="step_${i}"
                                 position="0 0 0"
                             >
@@ -78,7 +78,7 @@ function render_arrows(){
                         <a-image name="${instruction}"
                             src="./assets/ar_start.png"
                             look-at="#step_${i + 1}"
-                            scale="5 5 5"
+                            scale="8 8 8"
                             id="step_${i}"
                             position="0 0 0">
                         </a-image>
