@@ -76,7 +76,7 @@ function render_arrows(){
                     $("#scene_container").append(
                     `<a-entity gps-entity-place="latitude: ${steps[i].maneuver.location[1]}; longitude: ${steps[i].maneuver.location[0]};">
                         <a-image name="${instruction}"
-                            src="./assets/ar_start.png"
+                            src="./assets/inicio_ok.png"
                             look-at="#step_${i + 1}"
                             scale="8 8 8"
                             id="step_${i}"
